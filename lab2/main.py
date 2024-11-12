@@ -22,7 +22,7 @@ def main():
     args = parsing()
     try:
         download_images(args.keyword, args.save_dir)
-        print("\n\nИзображения загружены успешно загружены успешно")
+        print("\n\nИзображения загружены успешно")
         create_csv_file_annotation(args.save_dir, args.annotation)
         print("Папка аннотации успешно создана")
 
